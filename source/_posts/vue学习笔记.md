@@ -3,6 +3,7 @@ title: vue学习笔记
 date: 2019-01-15 21:01:34
 categories: js
 tags: [js, vue]
+copyright : ture
 ---
 <blockquote class="blockquote-center">人的一切痛苦，本质上都是对自己的无能的愤怒</blockquote>
 
