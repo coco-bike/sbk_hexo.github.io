@@ -20,7 +20,14 @@
   #}</span>
   {% endif %}
 </div>
-
+<div>
+{% if theme.footer.counter %}
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人</span>
+{% endif %}
+</div>
 <!--<div>
 <i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
   本站访客数:<span id="busuanzi_value_site_uv"></span>
@@ -54,8 +61,28 @@
 #}</div>
 {% endif %}
 -->
-
-<div class="theme-info">
-  <div class="powered-by"></div>
-  <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+<div>
+    <div class="theme-info">
+      <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+    </div>
+</div>
+<div>
+  <!-- 在网页底部添加网站运行时间 -->
+  <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+  <script>
+      var now = new Date();
+      function createtime() {
+          var grt= new Date("07/21/2018 00:00:00");//此处修改你的建站时间或者网站上线时间
+          now.setTime(now.getTime()+250);
+          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+          if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+          document.getElementById("timeDate").innerHTML = "Run for "+dnum+" Days ";
+          document.getElementById("times").innerHTML = hnum + " Hours " + mnum + " m " + snum + " s";
+      }
+  setInterval("createtime()",250);
+  </script>
 </div>

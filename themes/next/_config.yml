@@ -61,6 +61,8 @@ footer:
     enable: true
     # Version info of NexT after scheme info (vX.X.X).
     version: true
+  # visitors count
+  counter: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
@@ -377,10 +379,10 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  enable: true
+  appid: oicOkm2c3xn7N548aBxHH9AW-gzGzoHsz # your leancloud application appid
+  appkey: 5iRATH1L6nWCG8cABrHSTFub # your leancloud application appkey
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
   avatar: mm # gravatar style
