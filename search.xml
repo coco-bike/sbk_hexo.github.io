@@ -1,28 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F17%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[vue学习笔记]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F15%2Fvue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F</url>
-    <content type="text"><![CDATA[人的一切痛苦，本质上都是对自己的无能的愤怒 我一直有收集资料的习惯，最开始把资料都放在印象笔记里，然后自己平时处理消化之后会添加一个Learning Card作为资料开头，方便自己复习和记忆。但是时间一久，资料就特别多，加上处理过和没处理过的都积攒在一起就显得特别臃肿，于是我就考虑将消化过的内容发布到简书上，给自己做一个记录，也算是自己的技术博客。但使用了简书3个月之后，我就发现了一些问题：首先，我是用Typora来写内容的，简书虽然支持Markdown，但是自带的编辑器功能不是特别完善，有些时候还得反复切换Markdown和富文本模式，很麻烦；其次，直接复制Typora的内容到简书是无法同步图片的，因为Typora的图片是放在文件夹内的asset文件夹内的，复制到简书需要图片挨个重新上传，图片多的时候简直想放弃这一篇内容；另外，简书无法添加标签，只能分笔记本来写不同的内容，而且也不能添加置顶，功能比较单一；在综合考虑之后，我决定搭建一个自己的博客。正好看到有人推荐hexo搭建，而且大家搭建的博客都挺赏心悦目的，我就开始动手搭建自己的了。]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/sbk_hexo.github.io/2019/01/17/hello-world/"/>
+      <url>/sbk_hexo.github.io/2019/01/17/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<br><a id="more"></a></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vue学习笔记</title>
+      <link href="/sbk_hexo.github.io/2019/01/15/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/sbk_hexo.github.io/2019/01/15/vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<blockquote class="blockquote-center">人的一切痛苦，本质上都是对自己的无能的愤怒</blockquote><a id="more"></a><p>我一直有收集资料的习惯，最开始把资料都放在印象笔记里，然后自己平时处理消化之后会添加一个Learning Card作为资料开头，方便自己复习和记忆。但是时间一久，资料就特别多，加上处理过和没处理过的都积攒在一起就显得特别臃肿，于是我就考虑将消化过的内容发布到简书上，给自己做一个记录，也算是自己的技术博客。<br>但使用了简书3个月之后，我就发现了一些问题：<br>首先，我是用Typora来写内容的，简书虽然支持Markdown，但是自带的编辑器功能不是特别完善，有些时候还得反复切换Markdown和富文本模式，很麻烦；<br>其次，直接复制Typora的内容到简书是无法同步图片的，因为Typora的图片是放在文件夹内的asset文件夹内的，复制到简书需要图片挨个重新上传，图片多的时候简直想放弃这一篇内容；<br>另外，简书无法添加标签，只能分笔记本来写不同的内容，而且也不能添加置顶，功能比较单一；<br>在综合考虑之后，我决定搭建一个自己的博客。正好看到有人推荐hexo搭建，而且大家搭建的博客都挺赏心悦目的，我就开始动手搭建自己的了。</p>]]></content>
+      
+      
       <categories>
-        <category>js</category>
+          
+          <category> js </category>
+          
       </categories>
-      <tags>
-        <tag>js</tag>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[你好，Hexo]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2018%2F12%2F10%2F%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo%2F</url>
-    <content type="text"></content>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你好，Hexo</title>
+      <link href="/sbk_hexo.github.io/2018/12/10/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo/"/>
+      <url>/sbk_hexo.github.io/2018/12/10/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
