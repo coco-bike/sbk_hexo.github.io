@@ -169,7 +169,6 @@
           {% endif %}
         </div>
       {% endif %}
-
     </div>
   </aside>
 {% endmacro %}

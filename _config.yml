@@ -4,8 +4,8 @@
 
 # Site
 title: 、煮酒论英雄
-subtitle:
-description:
+subtitle: Stay Hungry, Stay Foolish
+description: "SongBiKe个人站，主要涉及.net core、docker、前端知识共享、实践教程、前沿技术共同学习等方面"
 keywords:
 author: SongBiKe
 language: zh-Hans
@@ -27,6 +27,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
+  - CNAME
 
 # Writing
 new_post_name: :title.md # File name of new posts
