@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[sql分组查询与子查询]]></title>
+    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F18%2Fsql%E5%88%86%E7%BB%84%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%90%E6%9F%A5%E8%AF%A2%2F</url>
+    <content type="text"><![CDATA[sql分组查询与子查询 123456789select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a left join UO_WeighRecord b on a.ID=b.GoodsID and b.FlowState=0 and b.IsDelete=0 Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouseselect *,(select COUNT(WeighNO) from UO_WeighRecord where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods]]></content>
+      <categories>
+        <category>sql</category>
+      </categories>
+      <tags>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[截断字符串或二进制数据]]></title>
     <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F18%2F%E6%88%AA%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E6%8D%AE%2F</url>
-    <content type="text"><![CDATA[主要原因就是你增加的数据字段长度超过数据库中字段所定义长度，去查看一下自己数据库中的字段的长度， 一般是误写出来的，查看一下自己数据库中需要自己设置字段类型长度的字段，修改其字段长度为最大就可以了， Sql server 可以设置其为varchar(max)或者text类型，建议采用varchar(max),便于映射。]]></content>
+    <content type="text"><![CDATA[主要原因就是你增加的数据字段长度超过数据库中字段所定义长度，去查看一下自己数据库中的字段的长度，一般是误写出来的，查看一下自己数据库中需要自己设置字段类型长度的字段，修改其字段长度为最大就可以了，Sql server 可以设置其为varchar(max)或者text类型，建议采用varchar(max),便于映射。]]></content>
       <categories>
         <category>bug</category>
       </categories>
@@ -20,7 +31,7 @@
   <entry>
     <title><![CDATA[Next主题的介绍]]></title>
     <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F17%2FNext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[努力不简单«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。 var ap = new APlayer({ element: document.getElementById("aplayer-VGJCmWWV"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+    <content type="text"><![CDATA[努力不简单«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。 var ap = new APlayer({ element: document.getElementById("aplayer-UTOXzajY"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
       <categories>
         <category>next</category>
       </categories>
@@ -31,7 +42,7 @@
   <entry>
     <title><![CDATA[Hexo的介绍]]></title>
     <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F15%2FHexo%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[人的一切痛苦，本质上都是对自己的无能的愤怒 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 var ap = new APlayer({ element: document.getElementById("aplayer-tpKgwDqn"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+    <content type="text"><![CDATA[人的一切痛苦，本质上都是对自己的无能的愤怒 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 var ap = new APlayer({ element: document.getElementById("aplayer-pnlEgdTp"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
       <categories>
         <category>hexo</category>
       </categories>
