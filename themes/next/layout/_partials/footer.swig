@@ -23,18 +23,18 @@
 <div>
 {% if theme.footer.counter %}
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-sort-amount-asc"></i>
+    </span>
     <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
     <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-plus-square-o"></i>
+    </span>
     <span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人</span>
 {% endif %}
 </div>
-<!--<div>
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
-</span>
-</div>-->
-
-<!--<div class="powered-by">
+<div class="powered-by">
 
 {% if theme.footer.powered %}
   <div class="powered-by">{#
@@ -46,7 +46,7 @@
   <span class="post-meta-divider">|</span>
 {% endif %}
 
-{% if theme.footer.theme.enable %}
+<!--{% if theme.footer.theme.enable %}
   <div class="theme-info">{#
   #}{{ __('footer.theme') }} &mdash; {#
   #}<a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">{#
@@ -62,11 +62,9 @@
 {% endif %}
 -->
 <div>
-    <div class="theme-info">
-      <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
-    </div>
-</div>
-<div>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-heart-o"></i>
+    </span>
   <!-- 在网页底部添加网站运行时间 -->
   <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
   <script>
