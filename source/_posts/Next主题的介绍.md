@@ -4,9 +4,8 @@ date: 2019-01-17 20:55:22
 categories: next
 tags: [next]
 copyright : true
-top: 10
 ---
-<blockquote class="blockquote-center">努力不简单</blockquote>
+<blockquote class="blockquote-center">真理惟一可靠的标准就是永远自相符合。 —— 欧文</blockquote>
 <!-- more -->
 «NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。
 

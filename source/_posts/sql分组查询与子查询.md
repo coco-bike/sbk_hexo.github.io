@@ -5,7 +5,7 @@ date: 2019-01-18 15:56:02
 categories: sql
 tags: [sql]
 ---
-sql分组查询与子查询
+<blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote>
 
 <!-- more -->
 {% codeblock %}
