@@ -26,4 +26,4 @@ tags: [hexo,github]
 在hexo的source文件夹下添加个CNAME文件，写入你的域名 例如："abc.cn"
 这样的话www,不加头等其他方式的访问都支持
 在hexo根目录下配置url,如果不进行这一步的配置的话，会遇到样式加载不出来404的错误，因为你的url设置还是以前的githubpages的地址
-{% asset_img 2019-01-22-3.jpg 图3%}
+{% asset_img 2019-01-22-3.jpg 图4 %}
