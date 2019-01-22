@@ -1,53 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[sql分组查询与子查询]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F18%2Fsql%E5%88%86%E7%BB%84%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%90%E6%9F%A5%E8%AF%A2%2F</url>
-    <content type="text"><![CDATA[sql分组查询与子查询 123456789select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a left join UO_WeighRecord b on a.ID=b.GoodsID and b.FlowState=0 and b.IsDelete=0 Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouseselect *,(select COUNT(WeighNO) from UO_WeighRecord where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>2019年1月的感想</title>
+      <link href="/sbk_hexo.github.io/2019/01/20/2019%E5%B9%B41%E6%9C%88%E7%9A%84%E6%84%9F%E6%83%B3/"/>
+      <url>/sbk_hexo.github.io/2019/01/20/2019%E5%B9%B41%E6%9C%88%E7%9A%84%E6%84%9F%E6%83%B3/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sbk_hexo.github.io\assets\css\APlayer.min.css"><script src="\sbk_hexo.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">爱情只有当它是自由自在时，才会叶茂花繁。认为爱情是某种义务的思想只能置爱情于死地。只消一句话：你应当爱某个人，就足以使你对这个人恨之入骨。 —— 罗素</blockquote><p>###概况<br>回顾这几年的感情生活，其实我挺失败的！前女友也没挽留下来，家里人朋友介绍的女生，也没有真正能走到男女朋友这一步的。</p><p>###缘起<br>前女友是大学里通过以前的同学介绍认识的，当初2个人见面感觉她挺高冷的，我们和我的同学以及他女朋友四个人一起吃晚饭、看电影；记得当时我挺尴尬的，同学趟在她女朋友的怀里，不停的在给我使眼色，我只是笨拙的拿着爆米花拿给你吃，期间奶茶还撒了出来沾湿了你的裙角，我急忙拿出纸巾，递给你，在一旁做装模做样给你擦拭，其实在电影院黑漆马虎啥也看不见，哈哈…</p><p>###热烈<br>后来我们就在一起了。在我印象里这一过程真的很顺利，这可能就是最普通的成为情侣的一种方式吧，没有轰轰烈烈的告白，也没有长时间的追求，其实我挺喜欢这种顺其自然的。虽然是异地恋，无法经常见面，也跟普通情侣一样煲电话；生气的时候，我也不知道咋哄你，毕竟我是新手，没有这方面的经验。这也和后来处了不少女生也成不了有一定的关系吧，在此之后，我们利用暑假去杭州，武汉游玩，欣赏过西湖的婀娜多姿；也领略过东湖的湖光山色； 那段时间正是我最开心的一段时间。</p><p>###心死<br>自从那年你突然提出分手，不知所措，我在很长的一段时间一直在想我做错了什么？为什么要分手？甚至夜晚不想因为你伤心，可是眼泪还是不争气的留下来了，眼泪渐渐划破划破心脏，变成一道道疤痕，可能这就是因爱生恨吧。在后几年还是纠缠了一段时间，这疤痕一直伴随着我，最后我们还是因为南京的房子决裂了，你家里人一直希望你找个南京有房的男人，想想当初分手也是因为你听家里人话，让你找个生活条件好的，嗯，对没错，正常的人都会选条件好的；你说“当初我分手也是我爸妈介绍个各方面很好的”；心在流血；我是一句话说不出来，没想到我们的爱情也和这世俗一样可笑，你是一点没和我商量就提出分手…真好，经过这次见面，你冷漠的态度，是真的让我死心了，或许你认为我没有挽留你，但你自始至终从来没在我立场上考虑过，从来没有真正关心我，一句关心的话也没，“最近上班咋样啊？”，没有，没有，没有，真的没有……..是时候结束了…生命里曾经有过你还是幸福的…</p><p>###展望<br>在此后碰过的几个女孩，没谈成各有原因吧。有我看不上人家的，有人家看不上我的。的确我相信缘分还是存在的，这些过客没必要在此多提，只希望我2019年，能振作精神，不要在意那些鸡毛蒜皮的小事，眼光放长远点，专注自己应该干的事，在自己的事业上取得进步，关心家人，努力为自己而活！！！</p>]]></content>
+      
+      
       <categories>
-        <category>sql</category>
+          
+          <category> 个人想法 </category>
+          
       </categories>
-      <tags>
-        <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[截断字符串或二进制数据]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F18%2F%E6%88%AA%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E6%8D%AE%2F</url>
-    <content type="text"><![CDATA[主要原因就是你增加的数据字段长度超过数据库中字段所定义长度，去查看一下自己数据库中的字段的长度，一般是误写出来的，查看一下自己数据库中需要自己设置字段类型长度的字段，修改其字段长度为最大就可以了，Sql server 可以设置其为varchar(max)或者text类型，建议采用varchar(max),便于映射。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>sql分组查询与子查询</title>
+      <link href="/sbk_hexo.github.io/2019/01/18/sql%E5%88%86%E7%BB%84%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%90%E6%9F%A5%E8%AF%A2/"/>
+      <url>/sbk_hexo.github.io/2019/01/18/sql%E5%88%86%E7%BB%84%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%90%E6%9F%A5%E8%AF%A2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sbk_hexo.github.io\assets\css\APlayer.min.css"><script src="\sbk_hexo.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a </span><br><span class="line">left join UO_WeighRecord b on a.ID=b.GoodsID  </span><br><span class="line">and b.FlowState=0 and b.IsDelete=0 </span><br><span class="line">Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,</span><br><span class="line">a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouse</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">select *,(select COUNT(WeighNO) from UO_WeighRecord </span><br><span class="line">where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>bug</category>
+          
+          <category> sql </category>
+          
       </categories>
-      <tags>
-        <tag>sql</tag>
-        <tag>C#</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F18%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Next主题的介绍]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F17%2FNext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[努力不简单«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。 var ap = new APlayer({ element: document.getElementById("aplayer-UTOXzajY"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>截断字符串或二进制数据</title>
+      <link href="/sbk_hexo.github.io/2019/01/18/%E6%88%AA%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E6%8D%AE/"/>
+      <url>/sbk_hexo.github.io/2019/01/18/%E6%88%AA%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E6%8D%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sbk_hexo.github.io\assets\css\APlayer.min.css"><script src="\sbk_hexo.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">时间是一切财富中最宝贵的财富。 —— 德奥弗拉斯多</blockquote><a id="more"></a><p>主要原因就是你增加的数据字段长度超过数据库中字段所定义长度，去查看一下自己数据库中的字段的长度，一般是误写出来的，查看一下自己数据库中需要自己设置字段类型长度的字段，修改其字段长度为最大就可以了，Sql server 可以设置其为varchar(max)或者text类型，建议采用varchar(max),便于映射。</p>]]></content>
+      
+      
       <categories>
-        <category>next</category>
+          
+          <category> bug </category>
+          
       </categories>
-      <tags>
-        <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hexo的介绍]]></title>
-    <url>%2Fsbk_hexo.github.io%2F2019%2F01%2F15%2FHexo%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[人的一切痛苦，本质上都是对自己的无能的愤怒 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 var ap = new APlayer({ element: document.getElementById("aplayer-pnlEgdTp"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+            <tag> C# </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Next主题的介绍</title>
+      <link href="/sbk_hexo.github.io/2019/01/17/Next%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+      <url>/sbk_hexo.github.io/2019/01/17/Next%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sbk_hexo.github.io\assets\css\APlayer.min.css"><script src="\sbk_hexo.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><blockquote class="blockquote-center">真理惟一可靠的标准就是永远自相符合。 —— 欧文</blockquote><br><a id="more"></a><br>«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。</p>        <div id="aplayer-MChfsUeJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-MChfsUeJ"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "修炼爱情",              author: "林俊杰",              url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3",              pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+      
+      
       <categories>
-        <category>hexo</category>
+          
+          <category> next </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo的介绍</title>
+      <link href="/sbk_hexo.github.io/2019/01/15/Hexo%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+      <url>/sbk_hexo.github.io/2019/01/15/Hexo%E7%9A%84%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sbk_hexo.github.io\assets\css\APlayer.min.css"><script src="\sbk_hexo.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">人的一切痛苦，本质上都是对自己的无能的愤怒 —— 王小波</blockquote><a id="more"></a><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>        <div id="aplayer-YyvQZdLg" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-YyvQZdLg"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "修炼爱情",              author: "林俊杰",              url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3",              pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/sbk_hexo.github.io/2019/01/15/hello-world/"/>
+      <url>/sbk_hexo.github.io/2019/01/15/hello-world/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sbk_hexo.github.io\assets\css\APlayer.min.css"><script src="\sbk_hexo.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<br><a id="more"></a></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>

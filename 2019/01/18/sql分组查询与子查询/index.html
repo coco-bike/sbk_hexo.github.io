@@ -88,18 +88,18 @@
 
 
 
-<meta name="description" content="sql分组查询与子查询">
+<meta name="description" content="世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡">
 <meta name="keywords" content="sql">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sql分组查询与子查询">
 <meta property="og:url" content="https://miaomiaomiao93.github.io/sbk_hexo.github.io/2019/01/18/sql分组查询与子查询/index.html">
 <meta property="og:site_name" content="、煮酒论英雄">
-<meta property="og:description" content="sql分组查询与子查询">
+<meta property="og:description" content="世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-18T08:05:17.044Z">
+<meta property="og:updated_time" content="2019-01-22T01:17:23.075Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sql分组查询与子查询">
-<meta name="twitter:description" content="sql分组查询与子查询">
+<meta name="twitter:description" content="世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡">
 
 
 
@@ -403,7 +403,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  80
+                  103
                 </span>
               
 
@@ -428,7 +428,8 @@
       
 
       
-        <p>sql分组查询与子查询</p>
+        <blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote>
+
 <a id="more"></a>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a </span><br><span class="line">left join UO_WeighRecord b on a.ID=b.GoodsID  </span><br><span class="line">and b.FlowState=0 and b.IsDelete=0 </span><br><span class="line">Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,</span><br><span class="line">a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouse</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">select *,(select COUNT(WeighNO) from UO_WeighRecord </span><br><span class="line">where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods</span><br></pre></td></tr></table></figure>
       
@@ -449,7 +450,7 @@
   <p><span>本文标题:</span><a href="/sbk_hexo.github.io/2019/01/18/sql分组查询与子查询/">sql分组查询与子查询</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 SongBiKe 的个人博客">SongBiKe</a></p>
   <p><span>发布时间:</span>2019年01月18日 - 15:01</p>
-  <p><span>最后更新:</span>2019年01月18日 - 16:01</p>
+  <p><span>最后更新:</span>2019年01月22日 - 09:01</p>
   <p><span>原始链接:</span><a href="/sbk_hexo.github.io/2019/01/18/sql分组查询与子查询/" title="sql分组查询与子查询">https://miaomiaomiao93.github.io/sbk_hexo.github.io/2019/01/18/sql分组查询与子查询/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://miaomiaomiao93.github.io/sbk_hexo.github.io/2019/01/18/sql分组查询与子查询/" aria-label="复制成功！"></i></span>
   </p>
@@ -503,6 +504,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/sbk_hexo.github.io/2019/01/20/2019年1月的感想/" rel="prev" title="2019年1月的感想">
+                2019年1月的感想 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -578,7 +583,7 @@
               
                 <a href="/sbk_hexo.github.io/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -589,7 +594,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/sbk_hexo.github.io/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -600,7 +605,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/sbk_hexo.github.io/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -621,19 +626,19 @@
             <div class="links-of-author motion-element">
                 
                   <span class="links-of-author-item">
-                    <a href="https://github.com/yourname" target="_blank" title="GitHub">
+                    <a href="https://github.com/miaomiaomiao93" target="_blank" title="GitHub">
                       
                         <i class="fa fa-fw fa-github"></i>GitHub</a>
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="444503829@qq.com" target="_blank" title="E-Mail">
+                    <a href="https://444503829@qq.com" target="_blank" title="E-Mail">
                       
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="sbk19930502@gmail.com" target="_blank" title="Google">
+                    <a href="https://sbk19930502@gmail.com" target="_blank" title="Google">
                       
                         <i class="fa fa-fw fa-google"></i>Google</a>
                   </span>
@@ -699,7 +704,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">473</span>
+    <span title="Site words total count">1.5k</span>
   
 </div>
 <div>
