@@ -428,7 +428,7 @@
       
 
       
-        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="\sbk_hexo.github.io\assets\css\APlayer.min.css"><script src="\sbk_hexo.github.io\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote>
+        <blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote>
 
 <a id="more"></a>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a </span><br><span class="line">left join UO_WeighRecord b on a.ID=b.GoodsID  </span><br><span class="line">and b.FlowState=0 and b.IsDelete=0 </span><br><span class="line">Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,</span><br><span class="line">a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouse</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">select *,(select COUNT(WeighNO) from UO_WeighRecord </span><br><span class="line">where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods</span><br></pre></td></tr></table></figure>
