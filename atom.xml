@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://songbike.cn/"/>
-  <updated>2019-01-22T01:56:21.400Z</updated>
+  <updated>2019-01-22T08:54:10.746Z</updated>
   <id>https://songbike.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于github-pages-hexo绑定域名的问题</title>
+    <link href="https://songbike.cn/2019/01/22/%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://songbike.cn/2019/01/22/关于github-pages-hexo绑定域名的问题/</id>
+    <published>2019-01-22T07:59:59.000Z</published>
+    <updated>2019-01-22T08:54:10.746Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;生活有度，人生添寿。 —— 书摘&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://songbike.cn/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://songbike.cn/tags/hexo/"/>
+    
+      <category term="github" scheme="https://songbike.cn/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>2019年1月的感想</title>
