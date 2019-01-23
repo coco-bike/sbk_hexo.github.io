@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://songbike.cn/"/>
-  <updated>2019-01-22T08:54:10.746Z</updated>
+  <updated>2019-01-23T01:26:09.632Z</updated>
   <id>https://songbike.cn/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>sql的not in 和not exists用法</title>
+    <link href="https://songbike.cn/2019/01/23/sql%E7%9A%84not-in-%E5%92%8Cnot-exists%E7%94%A8%E6%B3%95/"/>
+    <id>https://songbike.cn/2019/01/23/sql的not-in-和not-exists用法/</id>
+    <published>2019-01-23T01:21:05.000Z</published>
+    <updated>2019-01-23T01:26:09.632Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;过放荡不羁的生活，容易得像顺水推舟，但是要结识良朋益友，却难如登天。 —— 巴尔扎克&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="sql" scheme="https://songbike.cn/categories/sql/"/>
+    
+    
+      <category term="sql" scheme="https://songbike.cn/tags/sql/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于github-pages-hexo绑定域名的问题</title>
     <link href="https://songbike.cn/2019/01/22/%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://songbike.cn/2019/01/22/关于github-pages-hexo绑定域名的问题/</id>
     <published>2019-01-22T07:59:59.000Z</published>
-    <updated>2019-01-22T08:54:10.746Z</updated>
+    <updated>2019-01-23T01:23:45.579Z</updated>
     
     <summary type="html">
     
