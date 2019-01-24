@@ -113,3 +113,25 @@ feed:
 ##
 encrypt:
     enable: true
+
+#看板娘
+live2d:
+    enable: true
+    scriptFrom: local
+    pluginRootPath: live2dw/
+    pluginJsPath: lib/
+    pluginModelPath: assets/
+    tagMode: false
+    debug: false
+    model:
+      use: kesyoban
+    display:
+      position: left
+      width: 150
+      height: 200
+      headPos: 0.5  
+      scaling: 2 
+      opacityDefault: 0.7
+      opacityHover: 99
+    mobile:
+      show: true
