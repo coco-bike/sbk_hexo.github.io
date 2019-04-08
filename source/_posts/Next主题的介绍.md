@@ -9,4 +9,4 @@ copyright : true
 <!-- more -->
 «NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。
 
-{% aplayer "修炼爱情" "林俊杰" "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3" "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg" "autoplay" %}
+{% aplayer "修炼爱情" "林俊杰" "http://songbike.cn/lingjujiexlaq.mp3" "http://songbike.cn/ljj.jpg" "autoplay" %}

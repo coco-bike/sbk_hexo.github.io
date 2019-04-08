@@ -156,7 +156,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: http://plgx8fxsj.bkt.clouddn.com/touxiang.jpg
+avatar: http://songbike.cn/touxiang.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -245,8 +245,8 @@ post_wordcount:
 
 # Reward
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: http://plgx8fxsj.bkt.clouddn.com/wechat1.jpg
-alipay: http://plgx8fxsj.bkt.clouddn.com/zhifubao2.jpg
+wechatpay: http://songbike.cn/wechat1.jpg
+alipay: http://songbike.cn/zhifubao2.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
