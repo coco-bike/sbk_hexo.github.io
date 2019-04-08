@@ -1,7 +1,7 @@
 ---
 title: 关于github-pages-hexo绑定域名的问题
 copyright: true
-date: 2019-01-22 15:59:59
+date: 2019-04-08 15:59:59
 categories: hexo
 tags: [hexo,github]
 ---
@@ -27,3 +27,8 @@ tags: [hexo,github]
 这样的话www,不加头等其他方式的访问都支持
 在hexo根目录下配置url,如果不进行这一步的配置的话，会遇到样式加载不出来404的错误，因为你的url设置还是以前的githubpages的地址
 {% asset_img 2019-01-22-3.jpg 图4 %}
+###补充一点
+我后来自己又重新配了下域名被坑了，在hexo的source文件夹下要添加个CNAME文件,并在文件写入你的域名
+{% asset_img 2019-04-08-02.png 图5 %}
+{% asset_img 2019-04-08-01.png 图6 %}
+

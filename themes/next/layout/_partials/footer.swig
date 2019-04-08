@@ -22,7 +22,7 @@
 </div>
 <div>
 {% if theme.footer.counter %}
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span class="post-meta-item-icon">
       <i class="fa fa-sort-amount-asc"></i>
     </span>
