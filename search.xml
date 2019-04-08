@@ -1,87 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[sql的not in 和not exists用法]]></title>
-    <url>%2F2019%2F01%2F23%2Fsql%E7%9A%84not-in-%E5%92%8Cnot-exists%E7%94%A8%E6%B3%95%2F</url>
-    <content type="text"><![CDATA[过放荡不羁的生活，容易得像顺水推舟，但是要结识良朋益友，却难如登天。 —— 巴尔扎克 1234567select PlateNumber from UO_Vehicle where not exists(select PlateNumberfrom UO_Card where UO_Card.PlateNumber=UO_Vehicle.PlateNumber)select PlateNumber from UO_Vehicle where PlateNumber not in(select PlateNumber from UO_Card where UO_Card.PlateNumber=UO_Vehicle.PlateNumber) 在写查询时，尽量避免使用Not In，本文提供的Not Exists等价形式，将会减少很多麻烦]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>sql的not in 和not exists用法</title>
+      <link href="/2019/01/23/sql%E7%9A%84not-in-%E5%92%8Cnot-exists%E7%94%A8%E6%B3%95/"/>
+      <url>/2019/01/23/sql%E7%9A%84not-in-%E5%92%8Cnot-exists%E7%94%A8%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">过放荡不羁的生活，容易得像顺水推舟，但是要结识良朋益友，却难如登天。 —— 巴尔扎克</blockquote><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">select PlateNumber from UO_Vehicle where  not exists</span><br><span class="line">(select PlateNumberfrom UO_Card where UO_Card.PlateNumber=UO_Vehicle.PlateNumber)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">select PlateNumber from UO_Vehicle where PlateNumber not in</span><br><span class="line">(select PlateNumber from UO_Card where UO_Card.PlateNumber=UO_Vehicle.PlateNumber)</span><br></pre></td></tr></table></figure><p>在写查询时，尽量避免使用Not In，本文提供的Not Exists等价形式，将会减少很多麻烦</p>]]></content>
+      
+      
       <categories>
-        <category>sql</category>
+          
+          <category> sql </category>
+          
       </categories>
-      <tags>
-        <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[关于github-pages-hexo绑定域名的问题]]></title>
-    <url>%2F2019%2F01%2F22%2F%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[生活有度，人生添寿。 —— 书摘 1.创建github pages可以参考官方文档 2.注册域名到阿里云或者其他的域名购买喜欢的域名，个人的话不推荐买.com的域名 3.github pages上绑定在点击设置输入你购买的域名 4.域名解析添加如下2个，注意填写自己的github-pages地址 5.hexo配置在hexo的source文件夹下添加个CNAME文件，写入你的域名 例如：”abc.cn”这样的话www,不加头等其他方式的访问都支持在hexo根目录下配置url,如果不进行这一步的配置的话，会遇到样式加载不出来404的错误，因为你的url设置还是以前的githubpages的地址]]></content>
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于github-pages-hexo绑定域名的问题</title>
+      <link href="/2019/01/22/%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/2019/01/22/%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">生活有度，人生添寿。 —— 书摘</blockquote><a id="more"></a><h3 id="1-创建github-pages"><a href="#1-创建github-pages" class="headerlink" title="1.创建github pages"></a>1.创建github pages</h3><p>可以参考官方文档</p><h3 id="2-注册域名"><a href="#2-注册域名" class="headerlink" title="2.注册域名"></a>2.注册域名</h3><p>到阿里云或者其他的域名购买喜欢的域名，个人的话不推荐买.com的域名</p><h3 id="3-github-pages上绑定"><a href="#3-github-pages上绑定" class="headerlink" title="3.github pages上绑定"></a>3.github pages上绑定</h3><p>在点击设置<br><img src="/2019/01/22/关于github-pages-hexo绑定域名的问题/2019-01-22.jpg" title="图1"><br>输入你购买的域名<br><img src="/2019/01/22/关于github-pages-hexo绑定域名的问题/2019-01-22-2.jpg" title="图2"></p><h3 id="4-域名解析"><a href="#4-域名解析" class="headerlink" title="4.域名解析"></a>4.域名解析</h3><p>添加如下2个，注意填写自己的github-pages地址<br><img src="/2019/01/22/关于github-pages-hexo绑定域名的问题/2019-01-22-1.jpg" title="图3"></p><h3 id="5-hexo配置"><a href="#5-hexo配置" class="headerlink" title="5.hexo配置"></a>5.hexo配置</h3><p>在hexo的source文件夹下添加个CNAME文件，写入你的域名 例如：”abc.cn”<br>这样的话www,不加头等其他方式的访问都支持<br>在hexo根目录下配置url,如果不进行这一步的配置的话，会遇到样式加载不出来404的错误，因为你的url设置还是以前的githubpages的地址<br><img src="/2019/01/22/关于github-pages-hexo绑定域名的问题/2019-01-22-3.jpg" title="图4"></p>]]></content>
+      
+      
       <categories>
-        <category>hexo</category>
+          
+          <category> hexo </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2019年1月的感想]]></title>
-    <url>%2F2019%2F01%2F20%2F2019%E5%B9%B41%E6%9C%88%E7%9A%84%E6%84%9F%E6%83%B3%2F</url>
-    <content type="text"><![CDATA[Welcome to my blog, enter password to read. Incorrect Password! No content to display! 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]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2019年1月的感想</title>
+      <link href="/2019/01/20/2019%E5%B9%B41%E6%9C%88%E7%9A%84%E6%84%9F%E6%83%B3/"/>
+      <url>/2019/01/20/2019%E5%B9%B41%E6%9C%88%E7%9A%84%E6%84%9F%E6%83%B3/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Welcome to my blog, enter password to read." />    <label for="pass">Welcome to my blog, enter password to read.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX19tc2WhsA8GBJarnv4aHuKDlcU7TZBYVdoI0C9Zz6hrU41tuoLAPSR4j1RX5vs/q/s8ECcPzXvkF7hj2yjs7s/MMX3ptDP8JTSMjjB94SeLv9eE3og4eUn/zbieTfkXeddNKqnnSPqoPyq+v5bkWnG2L6+hCGW48JxszzNYmXrDD/SVlqClibYe08goQy5LXOXEMQiWTRK/18Q5iI3XBjD1n5k5HYIkK4/DYtR3cZSYprPYZixA0WAWsDeGFQXffEAOaLOwcyguYlgzPT02Wvyzak4eJ2iB58Koa0h108nXeBtmzHXm1WMqpWRJOncf9nJEoDGog10c9yUgk14dyvO0z5lr0ldGW6IUKgX2K2vB9bsHFj8IKZDbYLE3T06+3nZ60G9isP2Ta5LIhOeh6PW0M/YwCunYOcsmP0g7DarGBXs4s03YiRnRtK245Z4F6yS4gUShfMsR6D4PNSrCT6lB2rygj15xpDsNuzsWA7hE57pzqxXv8uyPdEj8gkMhpKtQnA4MGLYf0bFgTQKUSMOaZsLPVW0ZwPvJXrw1jzystXHDJOKYqkrgcs0XbPacbE/aLWBmQj12J8YdwbdV12olyenewOxFm6fySBqWl8EASrh51EfnZM0TOjFrrLHEvb0rQgQPmyrn5sZTwHYri+KTgliqapqtliRCaaEBLV9vFuWMB/7fMvGRaRtkiPlPa2DN+o47EkXheASLM6qZcoJ/c8DdYyYd/lEL/WwGOSIs85LAMgurtbmaGyJ0bx536Xo0Io7CRi2mv+fS9CQIeii2O7aYUDV4Jvo9RiH7H1xQfQJeAmVMu6f8S00gj0U74pOUUF4gx9+Ksp1k2Jhma3rWSH8UbMXJcZsaDINseG55fr+g5RA7PvQIHSwh1cE+mFOpEgrMeu41RU4BSOU3qhg1vkH3C0Ymg+5zUDrtp4VI/bRTyHkqdUfmKhCwFcdiu+7frF5Wwy7JQv9dDctnk2XPnQv4kkf5N+W+lRE47qSjJ89LA3L9Gai2rcjpCwemxm9xCttBcmWH/OMx0hMbVLAeprLigQkcrL6QHjX7LsgDGteMxA49ENi+Sxe8fq0DY3cgpNEhnDFTIIXw1zi929nckpDttOwhKrj6AZ+ufgZ0hLC0pyIn3Zeonr5RYFdGGA43fEnLy4LUaS+NI2iNhqy5pEjYzvzJoi8O226ON+k6/T9LhKRl8x+rzm9QcaYvAWjN76CweWbZJ3Zp5wrQx7mHCDB+mPHZACR3M8QCVjjKHsXCNOsceWSQrI33SoUPCJP1Go57mHRGU76O5OHW1iEpHL1XCK4F/Gdg5HI/cZYBn1G9hR0E21bdeUJoExpuXszCiZHboYn4Q4WUMpbEDjr81Nh1EoRHITTjTcyP16pkxEerF1B/t1fn8zRv7sLPNgUSCxj+rrVIr0CY6u/CHF9DNbZsp7y+rU4x3Nzdwdyz7WMO6rW729KZtz2uymyDHi7AxRUZ8OqBqpnE2XdS6EPzOx1dZRAUKkxstVMe3o1QqNcBY9SDQmoetpIa8DjTF1dhdpAytakWm43LKXJOhhxS/wWfbQK3py3/aX7r6YONqwr5gL2qmIlPn2/C/7cQpVBiQdgeOMtvuvmtUAHwaXJR8YkMS+LSDFnM/q+DEUNODrnUfaBUAxFi8DTSzIRG8ZJGTeGHxZYzCTLfpfAWPw8WQ+yEorwT9SSW7JGu/00vQVFBmE399PlvbUcnZgN+Adeve4CVwjhkYFSBqtqYYSPzXx1ZZmpkmEWhTooEXunswjCZTGkc3diNjEm/iVOjxmZD/CtvFLY56hYFM8jwtkL+IaWYZ+tULkQpr1WlUvYr5GDy7ElksMZQ2exrEpuM5E9bLDBLo6JGs6LEyZAUtyIeh+wQ9Lj+5lFK6e1IwXxoa5wukyGJY0POHy/TNomc60J5pq9BtIqpxFPeR/cA6d4nsqaLPDv+aSAh1YBXeSirOoyh3Dp1iT6gD7B0UZifFfwcTpo06BG4M9mKhc5cKK3PwgARj08StAcuEFNLNy4FeFou27IBzLW7e5x6UV9PQlSTpcqkXNhskBqhyG8O0byKGR2l77pDke4ndzOUceX8tcT9QCK7xQaVVW2I//BztKV+Us8rvoikHSYvW+xdd6eqvPHhtQ3IdPYOA7DBBfWH1oprM9nb0SuVydIUwAEXvcDaClD10fv1bKBIyp+9lL6V811k6mCovMmK9vBSoPUnc1fNscFDsu7LToYUzfGaXN92Xh72wF35dyIZMUHX9jb2uZdwHvD8lexW1gK0Fo5+0pF2EYokyWbWXkrpthdSboiuY4RhjGZlsoC4Ye9bqAxUN1VhR4Li2Wxb3MfTQKA8ERDFowz4giriQqezcQZxgV0mHp2liJwHWL1RFn1AX4o3s5EplOUEf65lhnWG6I7HBfrgEmPzieZZmCiDYWkxnwsoKSQVDwadesycFcwKbQOn8cgOEBp5EQ/k4//sa3Aon199CkdxLjzPhiHO02ssjNq9pUZEJgzcUcOVaH2ygaKSHobr9ltflJwKfl90hgxI8KMrvZ6lnNvvBgZmGt6BMww8MzWQmZQqX32TuCYbgOqpHkdRwrmJXwopfIwj633p+Y9cdU3z0JFX6lgWSHosRJNlupk0o83AV0lKIlkzbNuVlSQy13aVnZGomMaVaOBohtynhTrtvlZ0JjgqUUsbiBowLIMSEGlEqng3ut32/yn91D0/3WcBUtjHEUrAgVS5Bgd8Gxmp6rnwjOsBUxmGUukglkUgKlPi4xvH8PfB4OE77pRlrYqsI6e2EE/tT1Yi47xYYN5zt/8L3UBkI/4RhJKpD5IfIhrlJuhj5znhohtu5SBVSKg+4KYhgkpJtePF924akurSVLxrR/tI7txIO3ZLcM9EysSr6IqYMRPRqm0QqlLNeU4OG459MsRK9rQRMEKgCAZjtgnIpjfBzwNwoZlyZ5yGZcymVeEanx3aCO4s9UugrHrLsWJCzmWpIDjzvlTdIdiFJRGAlCAqMREJwuzo37vMtBQTI9L65KZtBpso21vYx4XKpuE/EnSjm2hjIKDIMG6LjoYssVd+v0Q7hGBOB9g9Hy/+4bmwhGf/o+xh+LQ0P8yXQcCdvWokvSraQOLnwetUfCxCm075RshyEwBSOvJ2R4ZgX1PmNRPsJXyYavr4/6cBx3992Y4qZU1crEpI8nKpFyDmzlVkhuCorlphqVV+eik889pIFwS1QncHKcuqQmcHoMh/IVYbgAyB5BtIias1MKlRmAgUD0WZf6ku0LEaWh9iIw4821Xqq+hZ7U6oVpnuaBstJJju1VvDoKcK0jkUu9ugq+Z+vtxq5mkMenHoJ+BxT4s/+Eis6j5/3dMjrrWgR7o+ivDVCnVP4Zs4mdznO/E6wR3LFnyVDp1LbUGNtc68twcMpFnZ8hynk2pHYAsbYMyCjOd/erz483HUCySjAnqLeA4/PH8CALUMFHh60nujERND5ipTayGEleL3jiBRNMdd8znVKfgi9ZDr9qtn45XNVZxzubO0gnS6EZqA6NDhPBq2n96nH7RqSWiL4zED2TmEuNAQWTe5BtniqZv5OJwdA/y7WrS5xxlwlVG/5pXwSRkxsWitECNcidCcV2uqecJrVNJ8FGlOIDksW5K6LPpFoTTKA0MG1Zc1tbvypzsFT1flxX/Ly/fF6Ahqq+r/5REyu0oVZxQWV7cQ8Lt/hKgNznZuzJVJVmbxWK3R8UU/dqEl+pYmq7f3bbkl81Jf7tLsdpvSzH4N2iMjEQj1ucvCC2bWRLeMtCHFb614jn1VHDANfpceqkgA9XeyvTtdqa5MjZSyOt0mh9ah+YlfBsYSGRqvj3sMAmcJLFQMH00pANeow5AZGSx05Fhn8uYuK+tkdLdW1zdz56Q+RMwfmK/vNN4/8bF+nDBRjCHqCU/ZBdee0V/fHfRgykEtH7Fb/1ZM8UIuKxmG1jjzuEJqf+e5i1e7yzNJKinyr6b/0DdV17qHToeMawhZ3ird7tOPpwluWGauBfMtm/uFU0GuHGTRIBjufcZo2yUpmOmMImA8/gUTUZMmlEiOhcDaIg1k+dymO48yf7Lp8Vfs7NGr9ft0UTOaLsO43g7QgGmx28qmq7t3viRxFN/4EWagicmFPbTjg7GZDZMbmcOfzNFyg+lyPrU8H2G4Rpw7MJwYag+Mh7kkly2kpp5Xi71vx13Z5SOQBzgYh5yJ6xeBTRV0loPnh18qDsB3d6YfQLFuWU0yajNT3nULDjEg9nQu5qKLr1P4m6X87Z7K+jscgA7ddHuyrJSijK4SKcFWKQ3WLXy2yThencAGi6LIqj0J74bJ7FJajx6dwqAcn/AebneTCSS/q++u+9Jn23WoNw1zB61ig18dQZs17mVnPRQDhMr+pf5og+eed2h4Be+VXjmAXUcwDee1P2gJnh8sxlvDLYdWvyF+tvHlpysHmTzZk4BJt7emv9BhzpVrufhGjUM1Bow9Lntj2MA5kpisxBYj23B35EpAK3MYMbiQxIxd9mkLKAu2qC8n57EXQQRHJjKulXIRPGgnJjzgTYd2p+0WRhVPcHtmeWbXs0AjV1OK1FwBFzhDPxmWWxtOEBX9ZTNaidXH/41FFF5z5JerTnZUrbPnqjC+hkFLvmKZVd2JHzq+KOleZjI3kW4t0gl8Eo0W0tUkxnDzB4s0EKd4CdEKkEeJ8nuCdqul0xDRpTIALk8Gu9Hpnd7dU6ceYyoKbmah7dfxnxpyLd13kGf2H8GX2XBkP5zq0HgJm8ZZ+eiq+27FY/4ZD++POr0U96kvGLJbGHOoyX7ACN5hQKkI6Qgaos/bW9SCno+Pn8zOHxgmf2GBKXgorMdFyuXygKCsKBGh/pdhZ6ppSIIyy6L77wy2cz5hGunbF4HMyPqZcKnvMjzWXi4R9d3z6rQQ+wVmmXu3t4GquzwKpbe2/hSEZH+ru0IReGj90OP99L9pKg5zx0ADgks6xIXeNbmomxDfftMFNXC0ssA5vz7bVHx6wiVDjAVx9Z9nYFdmj4UreqHi2pMTImJ7HbczI6aiQ3pMWODHwwynt7pM9ZCqsgILAyxWT1Bl6/dFkW334lHyk7M3vDhbkmuHS7B3Hi7y+lgncntpyRJ7NHfNMYF2VHsnE2h9t7ZNkfkfuDuEsxBvJ0KUln00EnvAn67YSAqQdSFiODnDQUwdmAw1GtySQDQiZX9sA70mtqX0EAW/JE3MKIZIR2cIQN2r+EF5H5TgI7nw3gYotlj8yTQUPWjO8gyzmI2B2XcZh850uyP3f7J76znjwCRTRzYhKCtRht4PfB6jaaI97ts4S1T5Z4w4wGJzVe8Yv5/QNpj1Y5PZk3wINy+iBJavnXcf6vDHHOjuFr3oFG/zdJRf3Mh3wSsK7YedNYOgEFMgK4Dn8OAgpnFRzge6t3vdX3IHcQJb90f7ssxwcbHZDsQwQqjCv1MnaSiB7xjMIjVCOhRYE6RatbZuQ5JyairO1Vfg5VD8VIZEq64HlGz98GYtf2epUm89LSmzjx7R/3V5F1UlqVXpwz0ifJOUNrVgIpQ1lT68o1mva3DbVN/DvsHldljwHv1NatVvv2biH39GewqI6Eke+CR98DG2e4d3LC6iWxaK6TmeC8WGqy0yNyW8lCZIoNngmgfNrAKN1iA1oEvmlmU2KtDR2U7i+UqFDyeyqR6UVB3YKib5RaQxqHQuFdj/aBoIR+pYkLkhHUa1qYRNPyv3axtYPU7BgqB3Q6Viih0pTdWj6kMs2EVHVEzqvWuL5VctapnDdT0fkyVJIMSkLTaIEhx3vOAaECJuqX/6wjUUg2XRyrqyO3uLYPq8DiKi+VFR4mFhch34XglPmQYFNLYTMMY0qAqogp9Int2XWojlTjsGoQUfy4x5IjuSBJ8cMonYhrczJ2qAxXy7hYYbXBi1Dp5/fdUPsPd9bJAOE7V61hFeRJvQU3vsqjk5l0ZiVLqxNIMBHnRvwD6HHePMxdqlHDaqUMe4kBTUIXHounQC/SoSp2rUWWpDEM92FdmyhQcMzXZg4ec5S2u2IWoyWDZ2k+sFoqAJIw1A+ZThCToP5UTkzhlcTfNo35iBUZo0h3GeE+B3t/H0+yrQ3Hb3ZDfRNUGMuoA/xUhB4lpYlfaL6mZdSU0PzFv+J9Kp2BMsPoKVhMoCO23O8sTVGjvcJ+nii7kQJnpc9+gIcP2dnR6kdHS7NhqM8NTE4DBZMmTZUkJnfvYmAx5V4bU7CvD1K6MWZu6jIy626yGjZs7M7U0+vaByjcZH1GtRw2iJZyundFkZ/fBuGTtipXS3j+lo1AH6eEt+9xS36d6VqE1J6wdxtFpoQnIzliZfwoZ0MNubWtudNwhLoaEOKacCgwHcfCoW3o/WxPn7wc/M7Pxj4bJjOcNStiA39dKwoA/3QR3Wyc6pHlMVJ830FxNexxPFTOi1BaxqPJ2F6iOEJb80fzboqkYFEuA547HXFhQxf0W4Ky1aEM/faUh04UjDyyGVB5EY7LACEP40wUsUVojeCtEKeIcmBtC05W/WiW+9Suwckd5mTCcD6iCtO3vtBGlBmi/tBoe9bZuDC9JSykEPiGjwNdMFxckEwSghq243/RW8McR3vg+labsqqigWEUjB+UOL3N71ZKbgEJhj3BtQ3ZBd2kbAJqu7uBMQjWVliVxJ8qUTnclqXCjdY2QqSzfeC9XLmiWnhrIZ4rxdxoWX1hi2vRnzQNwSLM2MzmciHAom7TMBvwttzFqCF2Wxzthwz73510jZTspvclLeHPduX8Hwn1s99pZpdgXxnpci+fOsyeJY3u9zone+DeMrW4cx7HJUx4gIChfcxURteQrClmZ6bFTAX+oumgFx9NZ/0PWfnG5QlkxPKityhIffGXv1v8qSYfrRaGKSknaj12ZaXLBuU+F76AYZYWUC3ndcLG9R0C/Fz8toHv54MIb2OdogYfbrEd23xJbffOq8GbMC+JKlAgNmp+jtv+mWKIBpSF4EKG98BWWkemCtZxdhGgGrAX0tw27TXsCerS9kWKDuT81BySKjik0cI5Bsv6BcmCFKD7P82B4Gjje66Lmtqshrcsg8jrKPHz/NTrulxXmZKFXl0yb848mDmTged2Li3BjfneB+3Wcg/45VKEhzi3eK/A1OAfmeGq/kVqAlWTqe0pmvxgnOsoI5MTMEwLe5KpYNhRRZD0EiJKdH/mXAww/TpOiMUZvgutbM8X6jynDMbQ1tegsH+VgHSY4oaAnsOrhHFeCiO7yQOxu4zg8r06LzEB9CDA3qdFp6ABlMHNULZQgzcXO4cw6i3XfFqelj51hl8kAYrrCY6+VtgYsNWELMlz1F7gJyub6G3dloRGtWUPD8NO62J/ozQA7PsHlQOreQtC7guue0kJMzuezapylSC4Pb6EbRF7GiIred78ja1FaKmGVdUOPS69oaCGSzPQvq94bIABn8TzFATQwligMLSY3PgKputk3IUrZm1RT43Ujljhx3B4XD4RJeKkbJP6vPGNpUNfYf1ZDI11+vW8SY9npaz1DPnppFUPAhDnHhsZc/AaWROfopfKjiBy9B1diRXr6FbMQBn5dlsqzNq5HF0qx/IwUTCc5yy1mxdeCLaO2el9GLgCzQYva1SyHXkCaTbl5jujosHfFkqWC+lffr5UneG/ZSLGqcSQ187qTbld/+YmkGT6iwu/qPCdSr/MMLGjic6fYQiPxRDw0otFNadrpXiz/OEdaF6H5gKaZHaD716jCEAztMIoyis9imGqeSCIR3lgAJSC29XL0HURitSv096ZjLfjCQ5O3i/hAIlAvl0+rh6MfZXx+yQQnwtydFwIE/TuVPqqRhWBe4U9kg3GKeaBftOis9ub+t8mchGmv+yYzXysqZnLTasj6jg7MwklD82cHGZN2hbJ9kcrbQch+7nV65JW8CsOBs+i/B6Wo+LRAJra+KjDovy7+pAKC315HXl0saO4ZUnmXIeXB6kVEhKP4GicubsmWWcFLOZOlAMbspEjCJj9oi1vM1+HazneMKcGgn48GFpvBZeqNpcGlJKDmJ8+8Lf7gXwqX9cq2G+ZDgZ3YBBi2ZV5hb0UIcyXSdA4XL0g91pPelrdiFCeE5OHlcGlPOYVMMpElpJxAdHHbypZcOyHYA1sXu8RGZmXtSjvvmVmbGmasN6KnhfQH0giHfFj2z82lXQmJcAWGDB/kqnGtr0Z4t5ZkxxitVgMA39KWs8X7IQtdEGryEWltQljiv3tDwO35ursL4WfBb928axhF/sIwD+qSCXu5ukKRb7yj6ZPDM6JrF1T26SzgF98Br6PFGG1/pGP9XkR1tzVQgfh97fB1mX6AM1lcpXxA7XpCukKc4DQOnSVqY2uZzvvg2+VQ3kPnEY3xZfSrmSowvuSeUV82yt30hvJQLXu+NDOf9zSF7xIQo7jllmGrx3wcx2TNqmP3fPmt0cuQ9YcIzypPtkcZo+qvLRqIApk5qOvC97T6/4cE8q59wCvzAtOCY0uOwIvHcHotSGQVEqmAi+gkAolGZqUe/YP14tvY8NgasC4iq9qoYL+hbpXoNcnW4dr2OoflOr5e+QeKR21Q2C+d2xEOteUzhKpE8VTtrMu7Josaq5QGhKjChz4rmLiFv2SOmKkvlDCMfpiI9chupbhooTYZJn3tPROc9o92Z0wRQDJXf4RpK4A0KJ+VKjTsIjAloTt7O2SSsoqPZZ6KOfj1JybkVd2K9hv3gCkbmuz0RQqc9Utz7esb726whJTVzbi5PFZ9TCZdTRkgVj3BolEFBnhRAuNRUEyf6j/ulgwJIHnuOQkTPnglcp5OKbrxha9JBjVMFUezGKnDAlnScp2tjahNTKilh514n+uz+UNlOO/0+uVeVa6ZA93axU5iVP4clI+vkrqbGSJgfzC2qPQ8Aeny5OibE4+Wv8MA35hMXg8ylUfQu3xM+YytVS9X2ui9v9Kcti8l22mmXMWlc6f1D8PIs+90uqDghwAhB5JoG4S6kujCo6ID3IPa6KnsfMTXGxH04dcXqvu53Wf1+CHl96ozI9wB30zhjeoxoFJgB/73vbw3dm+hRqYrog6Oh7ozZR0QJOcZxnzy/S6qHWYi9PUM3vk70jDuqKHrDjLwNImM9wVrVz5Ay9HFlCycFjgts5BYnljPAh9moQJQEvFvJWW1m7ysIHBX2oia8THeK+7yqmSj8HyIEmvMx7k/DzYtvDdw9THelexK76KUfBei1s0ywYbW54csukRGiFAWVGPjkv70XiEGc/UHUyvXDDlUwe0ivGggxdd7s7vwZoMGa//Iu7H5Sm5sB2uLauoe2CwyDRi6TATzuFRMFSAuxEzC8tWh4QpfzNWlZFsfnYpKYfq+PfeALWas63/DqT503imDGQk1S5FMOKDMyQa+uFaRQlL+gBXnWdNPm1j6u+AKVoEUgd0ZVMoHZuWzFaua44P0z2A3VL0X6nNt7rDyiCys5epOJ+EZrAb77XlTezhVXiMOquPKaT6tl6NHivnpZp1ZxXkYWPxuZP0rkazl0DeUQPirX4b9DAprQHTW/1HVcrrYHIwO/6yTl+Fv9MXrzYCpryuzXQVPP/sMkNZyI+VjR/uY3qPTnDbls5Trehd08IU8sZ41CNA/f3+ifsSR2fdKDXg9Yux2b0WejjR/LvaEy2IGnR9vZYJWHLBoFC7WkjQ5Xz/iChQoGXD+mSLr23SmG8g3kIpeARBUufKv6UUdFyus8GpALIuuz9GB4B9sNVUrrc3mBgUc/ePSVzCsfYtkG0rP8qzCQAudyij9pzlOJCKZAVhE1CK/DMyNOLmS8V5VkeH7yY4DACdO1AYKUyHim9bgZGbPpTwLZ49peK4uXB8pGypPDF40kBxiN8VA1iJXa7uc2sk5fZjrv7v0Jdh0Erfa1RI/TVNGAyq7AXInL6SUVQyCwk+i16c4Ura1JN7TKRhZ2Ku2MBQUdod8DYji0l1F5LxiJt2PQiuEpwXxSRbNUf3KNw15UB1NeIjLSubS6eOsNoyvZaJHZySvz0osbWsQWvH4ZV7YI67JMWjRsntOKVeCyMyRFdnPZw13NNYiVUuv5pfcej1qQDXaJ1eyJY5BHC/MsO121XouPTIMDOFPbDcdAOtFTQJ4LPxqx1U0mlDixFv9C/j4LxMFO+T+2831Ka7+SfqXaSCyeVqeP1uK4tvyP244itRHXZmTaZIrkrvPV/AvIBzMXoTh5X6fawCgkDzChQHR3xcLqAJPL30HN2tv/EdWKvrasmxE1C3TMLyC2v2i/BuNmdKSMCFP/RNkSTzYxDS5Vwl6q50gm8B/50lc7iQJ19MNcvv+V793R/lOKqG6wyMzFStKKxEo1/BLLgif553zV1HhH7F9yNXFGpaU5Z/KSd2cmDEJIq19uo1vp7Q+7w6P/xrIpeWaEACwEeuD5oM3eItluAgTq7+/KUQA0MjzhK01tS68ULCO2d05u5n3ucMzZLHfOEOO7tHSliVe534kmkKCZhPEi0bm6AkjCW9fNdhCaGaw0XdanZId+FmH/j23puB0XIUydhQZ3mz8jxnRPYF97jxfbJzgsM6hVhnHxmudVaxbXX5pzShBNMt0bUKelbH4OFasLrFI86g5ahJUoR0FYKCsRInxI5tDBhztE1VCnEGu2QBqAbfw5rDcFz0OsiEJKMRRNJE1rdow4OUPhik4oGIizjMJRV4v7dI/tRpSzZa8m5LZVOahrauSNhIsiXUZXJF95mi9h6JPLMnlCtQkZ9KHryxsotCXhO7qGb/idpGy9pNtavoJ9j4laOTl6zI6s/XVsCdd18OZC/bAq77JcKQZnhJZrL25rnAdMY9ZrZQhVJ8RNehdX8xq/h5GAqa0g9GZx1jwFdxbjWb8CHKZKalxsgHnPfrfJsA0vVwErug9lV4e2yEz5Klgf1tM4Cm3R62aDdJnW68qRLy2WFyG4iEqItBy3yzJASHDSlptSIIpY/DdlzdQW8BLnPf670bV21I4OCbgxqjHOCuG8wWwZFJAnXq5h54U+xSM0HQm40vA6cIgjb6D0xC6ANzXzl9JTtAW2D/Qb7/lDMnAdOBiS3k+B5hJKWNM+C8BQPv+RyNGAqXXoMGXnYm29+pMGuguHdLLjXE6jdTlda6RdHytxRuXH/yD1OwnAP+k/arF+0k9iB2MApzRLTP+TwWvVr157EhXkmfxVWfDDfdwkrN9X8baAJvV37l0a/pCgZiMP0u2iF4sJiDEgczkquBItl50jhiTXoVP6Q85hjHvDxa6nHb+yLr5nQ1NvoAG2oVai9f2zhtvyQ4Wsh5f5rTgIxR1Y87R6KXZugE99qjU1/3gGS0WeSW8S/U8Q0t+pCPJk6sfT/cYJmaKA5ltWOXg2CANZnnYq4oaSwQ/kyqL7g03+fCBXUKhkuoCDSgDVilS8+F1tQfdQklPLx1siSLbq7khoiurRWiBDEkwVkH4Jsi1c682mPflTIOlZsEn3HTLo9XE2BXDdg9YbwHDxuMqguNaGpIIBZsZTcEyckZNaFb3vrXl5gw796srB+7n99Ii1nZLo0uwF/oNjvrHOA+hYxeimfBV//EFwomCohuPeBy8dZ/6Yb3MeiitENNbDYZZGNONFqJT9SUc3Iu3fezW1YT1fT6VHJwk50nGYfc4XNw/apqzHnytuv3kxrUxhgnnyIe51e1gKeobosu8n6e4bzBlkXCSLqAX4gl9kwmIMovTcsVe/o0pRFWwQWWFaZ3g3Stb+zvLZYcJc0cEwgm6kATGCC9QLF1tAm8vJBkG67bKShwHYAewcz/X3AP5XgWojsazpv0Bz6yZznnCVxEElm3h68z15cwELqdk7qgk1Ki3IUtUERqeIO7RR4G+ipf/lHacgWdvJ0OEuTGdlCJVQY5/y2z23Ucfa5aZ9DLWKVO3R8ttFh1fCROQ=</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
       <categories>
-        <category>个人想法</category>
+          
+          <category> 个人想法 </category>
+          
       </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[sql分组查询与子查询]]></title>
-    <url>%2F2019%2F01%2F18%2Fsql%E5%88%86%E7%BB%84%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%90%E6%9F%A5%E8%AF%A2%2F</url>
-    <content type="text"><![CDATA[世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡 123456789select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a left join UO_WeighRecord b on a.ID=b.GoodsID and b.FlowState=0 and b.IsDelete=0 Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouseselect *,(select COUNT(WeighNO) from UO_WeighRecord where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods]]></content>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>sql分组查询与子查询</title>
+      <link href="/2019/01/18/sql%E5%88%86%E7%BB%84%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%90%E6%9F%A5%E8%AF%A2/"/>
+      <url>/2019/01/18/sql%E5%88%86%E7%BB%84%E6%9F%A5%E8%AF%A2%E4%B8%8E%E5%AD%90%E6%9F%A5%E8%AF%A2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a </span><br><span class="line">left join UO_WeighRecord b on a.ID=b.GoodsID  </span><br><span class="line">and b.FlowState=0 and b.IsDelete=0 </span><br><span class="line">Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,</span><br><span class="line">a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouse</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">select *,(select COUNT(WeighNO) from UO_WeighRecord </span><br><span class="line">where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>sql</category>
+          
+          <category> sql </category>
+          
       </categories>
-      <tags>
-        <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[截断字符串或二进制数据]]></title>
-    <url>%2F2019%2F01%2F18%2F%E6%88%AA%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E6%8D%AE%2F</url>
-    <content type="text"><![CDATA[时间是一切财富中最宝贵的财富。 —— 德奥弗拉斯多 主要原因就是你增加的数据字段长度超过数据库中字段所定义长度，去查看一下自己数据库中的字段的长度，一般是误写出来的，查看一下自己数据库中需要自己设置字段类型长度的字段，修改其字段长度为最大就可以了，Sql server 可以设置其为varchar(max)或者text类型，建议采用varchar(max),便于映射。]]></content>
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>截断字符串或二进制数据</title>
+      <link href="/2019/01/18/%E6%88%AA%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E6%8D%AE/"/>
+      <url>/2019/01/18/%E6%88%AA%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%96%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E6%8D%AE/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">时间是一切财富中最宝贵的财富。 —— 德奥弗拉斯多</blockquote><a id="more"></a><p>主要原因就是你增加的数据字段长度超过数据库中字段所定义长度，去查看一下自己数据库中的字段的长度，一般是误写出来的，查看一下自己数据库中需要自己设置字段类型长度的字段，修改其字段长度为最大就可以了，Sql server 可以设置其为varchar(max)或者text类型，建议采用varchar(max),便于映射。</p>]]></content>
+      
+      
       <categories>
-        <category>bug</category>
+          
+          <category> bug </category>
+          
       </categories>
-      <tags>
-        <tag>sql</tag>
-        <tag>C#</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Next主题的介绍]]></title>
-    <url>%2F2019%2F01%2F17%2FNext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[真理惟一可靠的标准就是永远自相符合。 —— 欧文«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。 var ap = new APlayer({ element: document.getElementById("aplayer-DWueKnwy"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+            <tag> C# </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Next主题的介绍</title>
+      <link href="/2019/01/17/Next%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2019/01/17/Next%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><blockquote class="blockquote-center">真理惟一可靠的标准就是永远自相符合。 —— 欧文</blockquote><br><a id="more"></a><br>«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。</p>        <div id="aplayer-srMyLvEL" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-srMyLvEL"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "修炼爱情",              author: "林俊杰",              url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3",              pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+      
+      
       <categories>
-        <category>next</category>
+          
+          <category> next </category>
+          
       </categories>
-      <tags>
-        <tag>next</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F01%2F15%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[Hexo的介绍]]></title>
-    <url>%2F2019%2F01%2F15%2FHexo%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[人的一切痛苦，本质上都是对自己的无能的愤怒 —— 王小波 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 var ap = new APlayer({ element: document.getElementById("aplayer-OGUoaPzG"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+      
+      
+        <tags>
+            
+            <tag> next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo的介绍</title>
+      <link href="/2019/01/15/Hexo%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+      <url>/2019/01/15/Hexo%E7%9A%84%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center">人的一切痛苦，本质上都是对自己的无能的愤怒 —— 王小波</blockquote><a id="more"></a><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>        <div id="aplayer-NcScyAUM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-NcScyAUM"),            narrow: false,            autoplay: true,            showlrc: false,            music: {              title: "修炼爱情",              author: "林俊杰",              url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3",              pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script>]]></content>
+      
+      
       <categories>
-        <category>hexo</category>
+          
+          <category> hexo </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/01/15/hello-world/"/>
+      <url>/2019/01/15/hello-world/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<br><a id="more"></a></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
