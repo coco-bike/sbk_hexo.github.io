@@ -60,7 +60,7 @@
   <entry>
     <title><![CDATA[Next主题的介绍]]></title>
     <url>%2F2019%2F01%2F17%2FNext%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[真理惟一可靠的标准就是永远自相符合。 —— 欧文«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。 var ap = new APlayer({ element: document.getElementById("aplayer-srMyLvEL"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+    <content type="text"><![CDATA[真理惟一可靠的标准就是永远自相符合。 —— 欧文«NexT» 是一款风格优雅的高质量 Hexo 主题，自点点滴滴中用爱雕琢而成。 var ap = new APlayer({ element: document.getElementById("aplayer-nektcdSH"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://songbike.cn/lingjujiexlaq.mp3", pic: "http://songbike.cn/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
       <categories>
         <category>next</category>
       </categories>
@@ -71,7 +71,7 @@
   <entry>
     <title><![CDATA[Hexo的介绍]]></title>
     <url>%2F2019%2F01%2F15%2FHexo%E7%9A%84%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[人的一切痛苦，本质上都是对自己的无能的愤怒 —— 王小波 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 var ap = new APlayer({ element: document.getElementById("aplayer-NcScyAUM"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://plgx8fxsj.bkt.clouddn.com/lingjujiexlaq.mp3", pic: "http://plgx8fxsj.bkt.clouddn.com/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
+    <content type="text"><![CDATA[人的一切痛苦，本质上都是对自己的无能的愤怒 —— 王小波 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 var ap = new APlayer({ element: document.getElementById("aplayer-bUcVxeRN"), narrow: false, autoplay: true, showlrc: false, music: { title: "修炼爱情", author: "林俊杰", url: "http://songbike.cn/lingjujiexlaq.mp3", pic: "http://songbike.cn/ljj.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
       <categories>
         <category>hexo</category>
       </categories>
