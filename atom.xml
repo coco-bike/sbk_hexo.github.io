@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzsongbike.top/"/>
-  <updated>2019-01-23T05:24:07.973Z</updated>
+  <updated>2019-04-08T09:03:55.277Z</updated>
   <id>https://hzsongbike.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于github-pages-hexo绑定域名的问题</title>
+    <link href="https://hzsongbike.top/2019/04/08/%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://hzsongbike.top/2019/04/08/关于github-pages-hexo绑定域名的问题/</id>
+    <published>2019-04-08T07:59:59.000Z</published>
+    <updated>2019-04-08T09:03:55.277Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;生活有度，人生添寿。 —— 书摘&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://hzsongbike.top/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://hzsongbike.top/tags/hexo/"/>
+    
+      <category term="github" scheme="https://hzsongbike.top/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>sql的not in 和not exists用法</title>
@@ -33,28 +55,6 @@
     
     
       <category term="sql" scheme="https://hzsongbike.top/tags/sql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于github-pages-hexo绑定域名的问题</title>
-    <link href="https://hzsongbike.top/2019/01/22/%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>https://hzsongbike.top/2019/01/22/关于github-pages-hexo绑定域名的问题/</id>
-    <published>2019-01-22T07:59:59.000Z</published>
-    <updated>2019-04-08T09:02:50.356Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote class=&quot;blockquote-center&quot;&gt;生活有度，人生添寿。 —— 书摘&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://hzsongbike.top/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://hzsongbike.top/tags/hexo/"/>
-    
-      <category term="github" scheme="https://hzsongbike.top/tags/github/"/>
     
   </entry>
   

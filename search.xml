@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[关于github-pages-hexo绑定域名的问题]]></title>
+    <url>%2F2019%2F04%2F08%2F%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[生活有度，人生添寿。 —— 书摘 1.创建github pages可以参考官方文档 2.注册域名到阿里云或者其他的域名购买喜欢的域名，个人的话不推荐买.com的域名 3.github pages上绑定在点击设置输入你购买的域名 4.域名解析添加如下2个，注意填写自己的github-pages地址 5.hexo配置在hexo的source文件夹下添加个CNAME文件，写入你的域名 例如：”abc.cn”这样的话www,不加头等其他方式的访问都支持在hexo根目录下配置url,如果不进行这一步的配置的话，会遇到样式加载不出来404的错误，因为你的url设置还是以前的githubpages的地址 ###补充一点我后来自己又重新配了下域名被坑了，在hexo的source文件夹下要添加个CNAME文件,并在文件写入你的域名]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[sql的not in 和not exists用法]]></title>
     <url>%2F2019%2F01%2F23%2Fsql%E7%9A%84not-in-%E5%92%8Cnot-exists%E7%94%A8%E6%B3%95%2F</url>
     <content type="text"><![CDATA[过放荡不羁的生活，容易得像顺水推舟，但是要结识良朋益友，却难如登天。 —— 巴尔扎克 1234567select PlateNumber from UO_Vehicle where not exists(select PlateNumberfrom UO_Card where UO_Card.PlateNumber=UO_Vehicle.PlateNumber)select PlateNumber from UO_Vehicle where PlateNumber not in(select PlateNumber from UO_Card where UO_Card.PlateNumber=UO_Vehicle.PlateNumber) 在写查询时，尽量避免使用Not In，本文提供的Not Exists等价形式，将会减少很多麻烦]]></content>
@@ -9,18 +21,6 @@
       </categories>
       <tags>
         <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[关于github-pages-hexo绑定域名的问题]]></title>
-    <url>%2F2019%2F01%2F22%2F%E5%85%B3%E4%BA%8Egithub-pages-hexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[生活有度，人生添寿。 —— 书摘 1.创建github pages可以参考官方文档 2.注册域名到阿里云或者其他的域名购买喜欢的域名，个人的话不推荐买.com的域名 3.github pages上绑定在点击设置输入你购买的域名 4.域名解析添加如下2个，注意填写自己的github-pages地址 5.hexo配置在hexo的source文件夹下添加个CNAME文件，写入你的域名 例如：”abc.cn”这样的话www,不加头等其他方式的访问都支持在hexo根目录下配置url,如果不进行这一步的配置的话，会遇到样式加载不出来404的错误，因为你的url设置还是以前的githubpages的地址 ###补充一点我后来自己又重新配了下域名被坑了，在hexo的source文件夹下要添加个CNAME文件,并在文件写入你的域名]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>
