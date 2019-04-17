@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzsongbike.top/"/>
-  <updated>2019-04-08T09:03:55.277Z</updated>
+  <updated>2019-04-17T06:15:42.022Z</updated>
   <id>https://hzsongbike.top/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sql触发器</title>
+    <link href="https://hzsongbike.top/2019/04/17/sql%E8%A7%A6%E5%8F%91%E5%99%A8/"/>
+    <id>https://hzsongbike.top/2019/04/17/sql触发器/</id>
+    <published>2019-04-17T05:28:45.000Z</published>
+    <updated>2019-04-17T06:15:42.022Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;相信谎言的人必将在真理之前毁灭。 —— 赫尔巴特&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="sql" scheme="https://hzsongbike.top/categories/sql/"/>
+    
+    
+      <category term="sql" scheme="https://hzsongbike.top/tags/sql/"/>
+    
+  </entry>
   
   <entry>
     <title>关于github-pages-hexo绑定域名的问题</title>
@@ -43,7 +63,7 @@
     <link href="https://hzsongbike.top/2019/01/23/sql%E7%9A%84not-in-%E5%92%8Cnot-exists%E7%94%A8%E6%B3%95/"/>
     <id>https://hzsongbike.top/2019/01/23/sql的not-in-和not-exists用法/</id>
     <published>2019-01-23T01:21:05.000Z</published>
-    <updated>2019-01-23T05:24:07.973Z</updated>
+    <updated>2019-04-17T06:10:19.316Z</updated>
     
     <summary type="html">
     
