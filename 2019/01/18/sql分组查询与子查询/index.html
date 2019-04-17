@@ -96,7 +96,7 @@
 <meta property="og:site_name" content="、煮酒论英雄">
 <meta property="og:description" content="世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-22T01:17:23.075Z">
+<meta property="og:updated_time" content="2019-04-17T06:20:54.479Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sql分组查询与子查询">
 <meta name="twitter:description" content="世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡">
@@ -431,7 +431,7 @@
         <blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote>
 
 <a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a </span><br><span class="line">left join UO_WeighRecord b on a.ID=b.GoodsID  </span><br><span class="line">and b.FlowState=0 and b.IsDelete=0 </span><br><span class="line">Group by a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,</span><br><span class="line">a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouse</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">select *,(select COUNT(WeighNO) from UO_WeighRecord </span><br><span class="line">where UO_Goods.ID = GoodsID and FlowState=0 and IsDelete=0) As Number from UO_Goods</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> a.*, <span class="keyword">COUNT</span>(b.WeighNO) <span class="keyword">as</span> <span class="built_in">number</span> <span class="keyword">from</span> dbo.UO_Goods a </span><br><span class="line"><span class="keyword">left</span> <span class="keyword">join</span> UO_WeighRecord b <span class="keyword">on</span> a.ID=b.GoodsID  </span><br><span class="line"><span class="keyword">and</span> b.FlowState=<span class="number">0</span> <span class="keyword">and</span> b.IsDelete=<span class="number">0</span> </span><br><span class="line"><span class="keyword">Group</span> <span class="keyword">by</span> a.CreateTime,a.Creator,a.GoodsCode,a.GoodsModel,</span><br><span class="line">a.GoodsName,a.ID,a.LimtVCount,a.LimtVCount,a.Price,a.Remark,a.Warehouse</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">select</span> *,(<span class="keyword">select</span> <span class="keyword">COUNT</span>(WeighNO) <span class="keyword">from</span> UO_WeighRecord </span><br><span class="line"><span class="keyword">where</span> UO_Goods.ID = GoodsID <span class="keyword">and</span> FlowState=<span class="number">0</span> <span class="keyword">and</span> IsDelete=<span class="number">0</span>) <span class="keyword">As</span> <span class="built_in">Number</span> <span class="keyword">from</span> UO_Goods</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -450,7 +450,7 @@
   <p><span>本文标题:</span><a href="/2019/01/18/sql分组查询与子查询/">sql分组查询与子查询</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 SongBiKe 的个人博客">SongBiKe</a></p>
   <p><span>发布时间:</span>2019年01月18日 - 15:01</p>
-  <p><span>最后更新:</span>2019年01月22日 - 09:01</p>
+  <p><span>最后更新:</span>2019年04月17日 - 14:04</p>
   <p><span>原始链接:</span><a href="/2019/01/18/sql分组查询与子查询/" title="sql分组查询与子查询">https://hzsongbike.top/2019/01/18/sql分组查询与子查询/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://hzsongbike.top/2019/01/18/sql分组查询与子查询/" aria-label="复制成功！"></i></span>
   </p>
