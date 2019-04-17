@@ -8,7 +8,7 @@ tags: [sql]
 <blockquote class="blockquote-center">过放荡不羁的生活，容易得像顺水推舟，但是要结识良朋益友，却难如登天。 —— 巴尔扎克</blockquote>
 
 <!-- more -->
-```
+```SQL
 
 select PlateNumber from UO_Vehicle where  not exists
 (select PlateNumberfrom UO_Card where UO_Card.PlateNumber=UO_Vehicle.PlateNumber)

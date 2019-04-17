@@ -8,7 +8,7 @@ tags: [sql]
 <blockquote class="blockquote-center">世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡</blockquote>
 
 <!-- more -->
-```
+```SQL
 select a.*, COUNT(b.WeighNO) as number from dbo.UO_Goods a 
 left join UO_WeighRecord b on a.ID=b.GoodsID  
 and b.FlowState=0 and b.IsDelete=0 
